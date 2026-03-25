@@ -1,0 +1,37 @@
+ 1:-
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a > b and a > c:
+    print("Greatest number is:", a)
+elif b > c:
+    print("Greatest number is:", b)
+else:
+    print("Greatest number is:", c)
+2:-
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("The number is even:", num)
+else:
+    print("The number is odd:", num)
+ 3:-
+ch = input("Enter a character: ")
+
+if ch.isupper():
+    print("Uppercase character")
+elif ch.islower():
+    print("Lowercase character")
+else:
+    print("Not an alphabet")
+
+4:-
+value = input("Enter input: ")
+
+if value.isdigit():
+    print("It is a number:", value)
+elif value.isalpha():
+    print("It is a character:", value)
+else:
+    print("It is a special character:", value)
